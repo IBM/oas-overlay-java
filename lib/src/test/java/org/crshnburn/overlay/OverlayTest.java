@@ -16,8 +16,6 @@ public class OverlayTest {
   public Object[][] overlays() {
     return new Object[][]{
       // {new Input("src/test/resources/openapi/town.yaml", "src/test/resources/overlays/remove-properties.yaml"), "src/test/resources/expected/town-remove-properties.yaml"}, // Commented out as JSON Path doesn't parse path correctly
-      // {new Input("src/test/resources/openapi/not-jsonpath.yaml", "src/test/resources/overlays/not-jsonpath.yaml"), "src/test/resources/expected/not-jsonpath.yaml"}, // TODO sort out how this should fail
-      // {new Input("src/test/resources/openapi/not-overlay.yaml", "src/test/resources/overlays/not-overlay.yaml"), "src/test/resources/expected/not-overlay.yaml"}, //TODO sort out how this should fail
       {new Input("src/test/resources/openapi/petstore.yaml", "src/test/resources/overlays/overlay.yaml"), "src/test/resources/expected/output1.yaml"},
       {new Input("src/test/resources/openapi/town.yaml", "src/test/resources/overlays/building-description.yaml"), "src/test/resources/expected/town-building-description.yaml"},
       {new Input("src/test/resources/openapi/town.yaml", "src/test/resources/overlays/update-root.yaml"), "src/test/resources/expected/town-root-updated.yaml"},

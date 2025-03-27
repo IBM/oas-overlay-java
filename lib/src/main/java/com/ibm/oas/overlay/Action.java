@@ -1,6 +1,5 @@
-package org.crshnburn.overlay;
+package com.ibm.oas.overlay;
 
-import com.fasterxml.jackson.annotation.JsonRawValue;
 import com.fasterxml.jackson.databind.JsonNode;
 
 public class Action {

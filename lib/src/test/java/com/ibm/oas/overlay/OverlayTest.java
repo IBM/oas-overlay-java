@@ -1,4 +1,4 @@
-package org.crshnburn.overlay;
+package com.ibm.oas.overlay;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.fail;
